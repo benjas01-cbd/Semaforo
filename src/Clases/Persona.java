@@ -1,5 +1,11 @@
 package clases;
-// Clase utilizada para ser herencia de estudiante y profesor
+/**
+ * Clase utilizada para ser herencia de estudiante y profesor
+ * @author Benjamin
+ * @version 2.0
+ * @since 1.5
+ * 
+ */
 public class Persona {
 	// Metodos de clase. Edad y nombre
 	int i_Edad;	

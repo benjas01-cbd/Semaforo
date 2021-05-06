@@ -1,9 +1,21 @@
 package clases;
-
+/**
+ * Clase constructor de profesor
+ * @author Benjamin
+ * @version 2.0
+ * @since 1.5
+ * 
+ */
 public class Profesor  extends Persona{
-    	public Profesor() {}				// Constructor
-
-	// Hace la pregunta al estudiante sobre el color
+     /** Constructor
+         * 
+         */
+    	public Profesor() {}
+        /** 
+         * Hace la pregunta al estudiante sobre el color
+         * @return String Devuelve el color dicho por el estudiante
+         * 
+         */
     	public String preguntacolor(){
 
 		Estudiante alumno;
